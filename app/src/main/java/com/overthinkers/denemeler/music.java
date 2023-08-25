@@ -119,26 +119,8 @@ public class music extends AppCompatActivity
             }
             cursor.close();
             }
-
-
         }
         MuzikCalar =MediaPlayer.create(getApplicationContext(), Uri.parse(sarki_yol_list.get(0)));
         MuzikCalar.start();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
