@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Denemeler" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/seffaf</item>
+        <item name="colorPrimaryVariant">@color/soft</item>
+        <item name="colorOnPrimary">@color/soft</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/arkaplan</item>
+        <item name="colorSecondaryVariant">@color/arkaplan</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
