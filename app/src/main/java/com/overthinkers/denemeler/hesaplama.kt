@@ -1,11 +1,14 @@
 package com.overthinkers.denemeler
-
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.hesaplama.*
 
 class hesaplama : AppCompatActivity() {
+
+    private lateinit var islem: TextView
+    private lateinit var sonuc: TextView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.decorView.systemUiVisibility =

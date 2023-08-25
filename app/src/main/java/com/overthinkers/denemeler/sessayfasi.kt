@@ -4,11 +4,12 @@ import android.content.Context
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.View
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.sessayfasi.*
 
 class sessayfasi : AppCompatActivity()
 {
+    private lateinit var sestext: TextView
     var muzik:MediaPlayer?=null
     var tussesi:MediaPlayer?=null
     override fun onCreate(savedInstanceState: Bundle?) {

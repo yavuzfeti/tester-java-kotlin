@@ -1,14 +1,18 @@
 package com.overthinkers.denemeler
-
 import android.content.Context
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.buton.*
 
 
 class buton : AppCompatActivity() {
+    private lateinit var resim: ImageView
+    private lateinit var resim2: ImageView
+    private lateinit var resim3: ImageView
+    private lateinit var resim4: ImageView
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.decorView.systemUiVisibility =

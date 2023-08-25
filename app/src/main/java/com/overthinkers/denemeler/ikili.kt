@@ -1,13 +1,19 @@
 package com.overthinkers.denemeler
-
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
-import kotlinx.android.synthetic.main.birinci.*
 
 class ikili : AppCompatActivity() {
+
+    private lateinit var oyna: com.airbnb.lottie.LottieAnimationView
+    private lateinit var lottie: com.airbnb.lottie.LottieAnimationView
+    private lateinit var exit: com.airbnb.lottie.LottieAnimationView
+    private lateinit var renk: com.airbnb.lottie.LottieAnimationView
+    private lateinit var ses: com.airbnb.lottie.LottieAnimationView
+    private lateinit var ok: com.airbnb.lottie.LottieAnimationView
+    private lateinit var asagi: com.airbnb.lottie.LottieAnimationView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
